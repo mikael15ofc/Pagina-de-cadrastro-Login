@@ -1,0 +1,158 @@
+body {
+  background: #F8CFFF;
+  margin: 0;
+}
+
+.conteiner {
+  width: 348px;
+  height: 474px;
+  background: linear-gradient(213.35deg, #8000FF 22.93%, #FF00B8 65.75%);
+  background-blend-mode: darken;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 7px 6px 7px rgba(1, 0, 56, 0.336);
+}
+
+.title {
+  font-family: 'roboto';
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding: 20px;
+  margin: 0;
+}
+
+.input-name {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-name > label {
+  color: #FFFFFF;
+  margin-bottom: 5px;
+  
+}
+
+.input-email {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-email > label {
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.input-password {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-password > label {
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.name {
+  width: 239px;
+  height: 30px;
+  background: #D9D9D9;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+  color: rgb(27, 25, 34);
+  font-size: 17px;
+  text-align: center;
+}
+
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+.email {
+  width: 239px;
+  height: 30px;
+  background: #D9D9D9;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+  color: rgb(27, 25, 34);
+  font-size: 17px;
+  text-align: center;
+}
+
+.password {
+  width: 239px;
+  height: 30px;
+  background: #D9D9D9;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  border: none;
+  color: rgb(27, 25, 34);
+  font-size: 17px;
+  text-align: center;
+}
+
+.but {
+  width: 112px;
+  height: 43px;
+  background: #D9D9D9;
+  border-radius: 6px;
+  border: none;
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.20em;
+  color: rgba(0, 0, 0, 0.65);
+  margin: 0;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+}
+
+.conta {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.10em;
+  margin-top: 50px;
+}
